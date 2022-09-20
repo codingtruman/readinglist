@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Page</title>
+</head>
+<body>
+    <p>
+        <a href="/admin">admin login</a>
+    </p>
+    <p>
+        <a href="/api/v1/insertion">Collect the data</a>
+        (<a href="https://hokodo-frontend-interview.netlify.app/data.json">Data Source</a>)
+    </p>
+    <p>
+        <a href="/api/v1/books">
+            Check all books
+        </a>
+    </p>
+    <p>
+        <a href="/api/v1/books?ordering=published">
+            Books sorted by publication date, ascending
+        </a>
+    </p>
+    <p>
+        <a href="/api/v1/books?ordering=-published">
+            books sorted by publication date, descending
+        </a>
+    </p>
+    <p>
+        <a href="/api/v1/books?ordering=title">
+            Books sorted by title, ascending
+        </a>
+    </p>
+    <p>
+        <a href="/api/v1/books?ordering=-title">
+            Books sorted by title, descending
+        </a>
+    </p>
+    <p>
+        <a href="/api/v1/authors">
+            Books sorted by authors
+        </a>
+    </p>
+    <p>
+        <form action="api/v1/books">
+            <input type="text" name="search" style="width: 300px;" placeholder="Enter book id, ISBN or author name to search">
+            <button type="submit">Search</button>
+        </form>
+    </p>
+</body>
+</html>

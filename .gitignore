@@ -1,0 +1,11 @@
+venv/
+migrations/
+__pycache__/
+.pytest_cache/
+
+*.pyc
+*.log
+.Python
+.DS_Store
+pyvenv.cfg
+.env
