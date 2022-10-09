@@ -32,7 +32,8 @@ A project of Django REST framework.
 2. Change DATABASES setting to your local db setting.
 
 3. ```shell
-   $ python manage.py migrate
+   $ python manage.py makemigrations readinglist
+   $ python manage.py migrate readinglist
    $ python manage.py runserver
    ```
 

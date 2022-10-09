@@ -117,4 +117,4 @@ USE_L10N = True
 
 STATIC_URL = '/static/'
 
-DATA_URL = "https://hokodo-frontend-interview.netlify.app/data.json"
+DATA_URL = "https://bit.ly/3VdPkyF"
